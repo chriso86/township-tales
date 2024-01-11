@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TownshipTales", "Source\TownshipTales.csproj", "{1046D093-CB72-4C3D-9F20-0AB3FE6FE0CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Defs", "Defs", "{C33C366A-D9CB-44B5-B1BD-3F0B6457A30A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScenarioDefs", "ScenarioDefs", "{ED4BF874-512E-4A7A-90E7-EE76D015F4C7}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ScenarioDefs\TownshipTales.xml = Defs\ScenarioDefs\TownshipTales.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patches", "Patches", "{910AF6E8-9791-4CB9-91D6-79B611C88545}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HarmonyPatches", "HarmonyPatches", "{16758867-1873-49B3-B290-8A96CB232DF9}"
+	ProjectSection(SolutionItems) = preProject
+		Patches\HarmonyPatches\CityGenerationPatch.cs = Patches\HarmonyPatches\CityGenerationPatch.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1046D093-CB72-4C3D-9F20-0AB3FE6FE0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1046D093-CB72-4C3D-9F20-0AB3FE6FE0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1046D093-CB72-4C3D-9F20-0AB3FE6FE0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1046D093-CB72-4C3D-9F20-0AB3FE6FE0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED4BF874-512E-4A7A-90E7-EE76D015F4C7} = {C33C366A-D9CB-44B5-B1BD-3F0B6457A30A}
+		{16758867-1873-49B3-B290-8A96CB232DF9} = {910AF6E8-9791-4CB9-91D6-79B611C88545}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04E63896-1A90-4D8A-AE23-2136F8762F61}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+<ScenarioDef>
+	<defName>TownshipTales</defName>
+	<label>A township experience</label>
+	<description>You have just moved to a new town, it's a blank slate and a new life for you. Isn't it exciting?</description>
+	<scenario>
+		<playerFaction>PlayerColony</playerFaction>
+		<parts>
+			<!-- Scenario parts like starting items, map conditions, etc. -->
+		</parts>
+	</scenario>
+</ScenarioDef>
